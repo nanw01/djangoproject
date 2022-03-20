@@ -17,3 +17,8 @@ Update the Jenkins version: brew upgrade jenkins
 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
 jenkins-02
 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
+jenkins-03
+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
+
+api token
+11bd8c66f99b85704cb5c2a70d5443c5ff
