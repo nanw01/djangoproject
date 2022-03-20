@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('docker example') {
             steps {
-                sh 'python --version'
+                sh 'java --version'
             }
         }
     }

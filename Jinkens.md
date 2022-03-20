@@ -12,7 +12,8 @@ Start the Jenkins service: brew services start jenkins
 Restart the Jenkins service: brew services restart jenkins
 Update the Jenkins version: brew upgrade jenkins
 ```
-
+jenkins-01
+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
 
 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
 jenkins-02
