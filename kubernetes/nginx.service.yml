@@ -1,0 +1,14 @@
+apiVersion: v1 # kubernetes API version and
+kind: Service # resource type(Service)
+metadata: # Metadata about service
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  type: NodePort # Type of service(CluterIP, NodePort, LoadBalancer)- defaults to ClusterIP
+  selector: # Select Pod template label(s) that service will apply to
+    app: nginx # Service will apply to resoutce with a label of app : nginx
+  ports: # Define container target port and the poty for the service
+    - name: http
+      port: 80 # define container target port(s)
+      targetPort: 80 # and the ports(s) for the service
